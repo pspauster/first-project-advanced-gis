@@ -1,0 +1,53 @@
+html,
+body,
+#container {
+    background-color: #d2d2d2;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+#above {
+    display: flex;
+}
+
+.cd-tile {
+    border: 1px solid #12719e;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 33%;
+    text-align: center;
+}
+
+.cd-tile:hover {
+    cursor: pointer;
+    background-color: #12719e;
+    color: white;
+}
+
+.cd-name {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.cd-number {
+    font-size: 10px;
+}
+
+#title {
+    text-align: center;
+}
+
+#image {
+    height: 300px;
+}
+
+#picture-tile {
+    text-align: center;
+    padding: 10px;
+}
+
+.selected {
+    background-color: #12719e;
+    color: white;
+}
