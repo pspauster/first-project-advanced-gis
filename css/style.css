@@ -1,3 +1,4 @@
+/* set background */
 html,
 body,
 #container {
@@ -19,6 +20,7 @@ body,
     text-align: center;
 }
 
+/* change color on hover */
 .cd-tile:hover {
     cursor: pointer;
     background-color: #12719e;
@@ -47,6 +49,7 @@ body,
     padding: 10px;
 }
 
+/* when tile is selected, invert colors */
 .selected {
     background-color: #12719e;
     color: white;
